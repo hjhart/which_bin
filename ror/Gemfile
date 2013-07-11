@@ -18,9 +18,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-group :development, :test do
-  gem 'rspec-rails'
-end
+gem "rspec-rails", :group => [:test, :development]
+
+gem 'active_model_serializers'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
